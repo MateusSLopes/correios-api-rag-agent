@@ -36,19 +36,19 @@ Para rodar este projeto, você precisa ter:
 
 1. Instale as bibliotecas necessárias que estão listadas no `requirements.txt`:
    ```bash
-   py -m pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 2. Certifique-se de criar a pasta `pdfs/` na raiz do seu projeto e colocar o PDF do Manual de Integração dos Correios lá dentro.
 
 3. **Crie a base de dados vetorial:**
    ```bash
-   py create_database.py
+   python create_database.py
    ```
 
 4. **Inicie o Agente para fazer suas consultas:**
    ```bash
-   py main.py
+   python main.py
    ```
 
 ## Exemplos de Perguntas para o Agente
